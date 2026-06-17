@@ -1,0 +1,12 @@
+# Despliegue de la API en Render (free tier).
+# En Render: New > Blueprint, y apuntar a este repo.
+services:
+  - type: web
+    name: stock-fnb-api
+    runtime: node
+    rootDir: api
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: JWT_SECRET
+        generateValue: true

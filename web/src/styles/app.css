@@ -1,0 +1,60 @@
+/* Estilos propios. Bootstrap ya cubre la rejilla responsive;
+   aquí afinamos los breakpoints EXACTOS que pide el enunciado. */
+
+:root {
+  --rm-navy: #0a1f44;
+  --rm-gold: #c8a951;
+}
+
+body {
+  background-color: #f5f6f8;
+}
+
+/* Marca de la navbar con color corporativo */
+.navbar-brand-custom {
+  background-color: var(--rm-navy);
+}
+
+/* ---- Breakpoints requeridos ---- */
+
+/* Full HD (1920x1080): limitamos el ancho del contenido para que no se estire */
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+/* Portátil pantalla pequeña (990px) */
+@media (max-width: 990px) {
+  .display-5 {
+    font-size: 2rem;
+  }
+}
+
+/* Tablet / móvil grande (767px) */
+@media (max-width: 767px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Móvil pequeño (510px) */
+@media (max-width: 510px) {
+  .h3 {
+    font-size: 1.3rem;
+  }
+  .display-1 {
+    font-size: 4rem;
+  }
+}
+
+/* Móvil extra pequeño / clásico (480px) */
+@media (max-width: 480px) {
+  .card-title {
+    font-size: 1rem;
+  }
+  .btn {
+    font-size: 0.85rem;
+  }
+}
