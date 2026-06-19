@@ -16,7 +16,7 @@ export default function NavBar() {
     <Navbar expand="lg" variant="dark" className="navbar-brand-custom shadow-sm">
       <Container>
         <Navbar.Brand as={Link} to="/">
-          🥨 Stock F&amp;B
+          Stock F&amp;B
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="main-nav" />
         <Navbar.Collapse id="main-nav">
