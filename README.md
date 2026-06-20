@@ -10,8 +10,8 @@ El proyecto incluye además una **API REST** propia con autenticación JWT y una
 
 ## Demo
 
-- **Web (GitHub Pages):** _pendiente de desplegar_ → `https://<usuario>.github.io/stock-fnb/`
-- **API (Render):** _pendiente de desplegar_ → `https://stock-fnb-api.onrender.com`
+- **Web (GitHub Pages):** https://itzzcar.github.io/stock-fnb/
+- **API (Render):** https://stock-fnb.onrender.com
 
 ### Credenciales de prueba
 
